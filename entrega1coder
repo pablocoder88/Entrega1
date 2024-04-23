@@ -38,7 +38,7 @@ def alta():
         intentos=3
         while confi!=contrasena:
                 intentos-=1
-                confi=str(input(f"la contraseña no coincide, quedan {intentos} intentosa antes de salir: "))
+                confi=str(input(f"la contrasena no coincide, quedan {intentos} intentos antes de salir: "))
                 if intentos==1:
                         return menu()
         base[usuario]=contrasena
